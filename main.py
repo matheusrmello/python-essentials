@@ -1,7 +1,7 @@
 print("Hello world")
-nota1 = 2
-nota2 = 4
-media = nota1/nota2
+nota1 = int(input("Digite a primeira nota: "))
+nota2 = int(input("Digite a segunda nota: "))
+media = (nota1 + nota2) / 2
 print(media)
 
 
